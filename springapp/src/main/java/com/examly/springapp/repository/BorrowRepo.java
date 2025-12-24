@@ -6,5 +6,4 @@ import com.examly.springapp.model.Borrow;
 
 @Repository
 public interface BorrowRepo extends JpaRepository<Borrow, Long> {
-
 }

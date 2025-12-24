@@ -6,5 +6,4 @@ import com.examly.springapp.model.BookCategory;
 
 @Repository
 public interface BookCategoryRepo extends JpaRepository<BookCategory, Long> {
-
 }

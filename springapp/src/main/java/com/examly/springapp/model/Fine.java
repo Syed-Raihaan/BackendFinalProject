@@ -14,6 +14,7 @@ public class Fine {
     private double amount;
     @OneToOne
     private Borrow borrow;
+    
     public Long getFineId() {
         return fineId;
     }

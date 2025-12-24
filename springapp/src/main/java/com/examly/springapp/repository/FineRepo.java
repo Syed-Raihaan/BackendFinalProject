@@ -6,5 +6,4 @@ import com.examly.springapp.model.Fine;
 
 @Repository
 public interface FineRepo extends JpaRepository<Fine, Long> {
-
 }

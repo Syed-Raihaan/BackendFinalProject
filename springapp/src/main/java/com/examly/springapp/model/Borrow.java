@@ -1,7 +1,6 @@
 package com.examly.springapp.model;
 
 import java.sql.Date;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,6 +18,7 @@ public class Borrow {
     private Member member;
     private Date borrowDate;
     private Date returnDate;
+    
     public Long getBorrowId() {
         return borrowId;
     }

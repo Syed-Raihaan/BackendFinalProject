@@ -13,6 +13,7 @@ public class Member {
     private String name;
     private String phone;
     private String email;
+    
     public Long getMemberId() {
         return memberId;
     }
