@@ -25,4 +25,5 @@ com\examly\springapp\service\FineServiceImpl.class
 com\examly\springapp\controller\BookController.class
 com\examly\springapp\repository\BorrowRepo.class
 com\examly\springapp\controller\MemberController.class
+com\examly\springapp\aspect\LoggingAspect.class
 com\examly\springapp\controller\BookCategoryController.class
